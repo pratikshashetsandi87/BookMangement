@@ -5,7 +5,7 @@ import "../Css/Home.css";
 
 function Home() {
 
-  const API = "http://localhost:3000/books";
+const API = "https://bookmangement-t7qe.onrender.com/books";
 
   const [books, setBooks] = useState([]);
 

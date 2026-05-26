@@ -6,7 +6,7 @@ import '../Css/Addbook.css'
 
 function Updatebook() {
 
-  const API = "http://localhost:3000/books";
+ const API = "https://bookmangement-t7qe.onrender.com/books";
 
   const navigate = useNavigate();
 
