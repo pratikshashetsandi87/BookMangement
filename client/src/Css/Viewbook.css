@@ -1,0 +1,78 @@
+.viewbook{
+  min-height: 100vh;
+  background: white;
+}
+
+.viewbook h1{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 45px;
+  color: black;
+}
+
+.book-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.book-card{
+  width: 300px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+ 
+}
+
+.book-card:hover{
+  transform: scale(1.03);
+}
+
+.book-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.book-card-content{
+  padding: 20px;
+}
+
+.book-card h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.book-card p{
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.btns{
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+}
+
+.edit{
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete{
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
